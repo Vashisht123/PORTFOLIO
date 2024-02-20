@@ -1,0 +1,239 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>VASHISHT- PORTFOLIO</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+        rel="stylesheet">
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+
+        }
+
+        body {
+            background-color: rgb(86, 150, 160);
+            color: white;
+            font-family: 'Poppins', sans-serif;
+        }
+
+        nav {
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+            height: 80px;
+            background-color: rgb(3, 3, 66);
+        }
+
+        nav ul {
+            display: flex;
+            justify-content: center;
+        }
+
+        nav ul li {
+            list-style: none;
+            margin: 0 23px;
+        }
+
+        nav ul li a {
+            text-decoration: null;
+            color: white;
+
+        }
+
+        nav ul li a:hover {
+
+            color: rgb(73, 73, 149);
+            font-size: 1.04rem;
+
+        }
+
+        .left {
+            font-size: 1.5rem;
+        }
+
+        .firstSection {
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+            margin: 80px 0;
+
+        }
+
+        .leftSection {
+
+            width: 34px;
+            font-size: 2rem;
+
+        }
+        .leftSection buttons{
+            padding: 46px 0;
+        }
+
+        .leftSection .btn{
+            padding: 12px;
+            background-color: rgb(77, 49, 200);
+            color: whitesmoke;
+            border: 2px solid white;
+            border-radius: 6 px;
+            font-size: 15px;
+            cursor: pointer;
+
+
+
+        }
+
+
+        .rightSection {}
+
+        .firstSection>div {
+            width: 30%;
+        }
+
+        .rightSection img {
+            width: 100%;
+
+
+        }
+
+        .purple {
+            color: blueviolet;
+        }
+
+        #element {
+            color: blueviolet;
+        }
+
+        .secondsection{
+            max-width: 80vw;
+            margin: auto;
+            height: 80vh;
+        }
+
+        .secondsection h1{
+            font-size: 2rem;
+        }
+
+        .secondsection box{
+            background: white;
+            width: 80vw;
+            height: 2px;
+            margin: 56px 0;
+            
+
+        }
+
+        .secondsection{
+            text-align: justify;
+            
+        }
+
+        .secondsection img{
+            width: 10%;
+            color: white;
+            
+        }
+
+    </style>
+
+</head>
+
+<body>
+
+
+    <header>
+        <nav>
+            <div class="left"> Vashisht's PORTFOLIO</div>
+            <div class="right">
+                <ul>
+                    <li><a href="/">Home</a></li>
+                    <li><a href="/">About Me</a></li>
+                    <li><a href="/">Skills</a></li>
+                    <li><a href="/">Projects</a></li>
+                    <li><a href="/">Contact Me</a></li>
+                </ul>
+            </div>
+        </nav>
+
+    </header>
+
+    <main>
+        <section class="firstSection">
+            <div class="leftSection">
+                Hi, My Name is <span class="purple">VASHISHT</span>
+                <div>and I am a passionate</div>
+
+              <span id="element"></span>
+              <div class="buttons">
+                <button class="btn">Download Resume</button>
+                <button class="btn">Visit Github</button>
+            </div>
+
+            </div>
+            <div class="rightSection">
+
+                <img src="web-developer.svg" alt="">
+
+            </div>
+
+        </section>
+        <hr>
+
+        <section class="secondsection">
+
+            <h1>About Me</h1>
+            <div>
+                <img src="4066324-200.png" alt="">
+            </div>
+            <div class="box">
+            <p1>
+                    
+                As a dedicated Computer Science and Engineering enthusiast, I bring a versatile skill set to the table. Proficient in various programming languages including Python, SQL (Structured Query Language), C++, and JavaScript, I thrive on solving complex problems and crafting efficient solutions. My expertise extends to a diverse range of web technologies such as HTML, CSS, React, and NodeJS, enabling me to create dynamic and interactive web applications. Additionally, my proficiency in platforms like Windows and Linux empowers me to adapt and excel in diverse computing environments. With a keen eye for detail and precision, My knowledge in MySQL further enhances my capabilities, ensuring seamless data management and integration in software projects. With a passion for innovation and a solid foundation in Computer Science and Engineering, I am excited to make meaningful contributions to the ever-evolving landscape of technology.
+            
+                
+            </p1>
+            <hr>
+            <hr>
+            <p2>
+                
+                    Currently, I am pursuing a Bachelor of Engineering (Honors) in Computer Science and Engineering with a specialization in Artificial Intelligence and Machine Learning from Chandigarh University. This academic journey has equipped me with comprehensive knowledge and practical skills in cutting-edge technologies, preparing me to tackle challenges and contribute to groundbreaking advancements in the field.
+                
+            </p2>
+
+
+
+
+
+
+
+
+
+
+
+            </div> 
+
+        </section>
+    </main>
+
+
+    <footer>
+        <div class="flex"></div>
+    </footer>
+    <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+    <script>
+        var typed = new Typed('#element', {
+            strings: ['Developer', 'Web Designer'],
+            typeSpeed: 50,
+        });
+    </script>
+    
+
+</body>
+
+</html>
